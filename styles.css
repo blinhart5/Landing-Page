@@ -1,13 +1,11 @@
 body {
     font-family: "Roboto";
+    margin: 0; 
 }
 .container-1 {
-    
     padding: 0px 150px;  
     background-color: #1f2937;
-    color: #f9faf8;
-    
-    
+    color: #f9faf8; 
 }  
     
 header {
@@ -24,19 +22,17 @@ header {
 ul, a {
     color: #e5e7eb;
     text-decoration: none;
-    
 }
+
 ul { 
     display: inline-flex; 
     list-style: none;
     gap: 20px; 
-    
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    
 }
 
 .section-1 {
@@ -44,23 +40,24 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 100px 0px;
-     
-   
+    gap:40px;
 }
+
 .main-text {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    padding: 0; 
+    margin: 0; 
 }
 
 .img-container {
     display: flex; 
     justify-content: center;
     align-items: center;
-    width: 700px; 
+    width: 600px; 
     height: 300px; 
     background-color: grey;
-
 }
 .secondary-text {
     font-size: 18px;
@@ -81,23 +78,22 @@ button {
     display: flex; 
     flex-direction: column;
     text-align: center;
-    padding: ;
+    padding: 0;
     margin: 30px; 
-     
-
 }
 
-h2 {
+.info-header {
     font-size: 36px;
     color: #1f2937; 
     font-weight: 900;
 }
+
 .blocks {
     display: flex; 
     justify-content: center;
-    gap: 50px; 
+    gap: 60px; 
     padding: 20px 0px; 
-    
+    margin: 0;
 }
 
 .block-1,
@@ -108,7 +104,6 @@ h2 {
     height: 200px; 
     border: solid #3882f6;
     border-radius: 10px; 
-    
 }
 
 .b-container {
@@ -119,7 +114,6 @@ h2 {
 
 .blocks span {
     display: flex; 
-    
 }
 
 .section-3 {
@@ -135,22 +129,17 @@ h2 {
     display: flex; 
     flex-direction: column;
     width: 50%;
-
-    
 }
 .quote {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 900;
-    
-    /*width: 40%; */
-
+    font-weight: 300;
+    font-style: italic; 
 }
 
 .author {
-    /*width: 100%;*/
-    text-align:right; 
-    
+    text-align:right;
+    font-size: 18px; 
 }
 
 .section-4 {
@@ -158,24 +147,20 @@ h2 {
     height: 300px; 
     justify-content: center; 
     align-items: center;
-
 }
 .modal {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 60%;
+    width: 100%;
     height: 60%;
+    margin: 0 150px;  
     border-radius: 10px;
     background-color: #3882f6; 
 }
 
-.modal-text-container {
-
-}
-
 .call-to-action-header {
-    font-size: 18px;
+    font-size: 24px;
     color: #e5e7eb;
     padding: 0; 
     margin: 0; 
@@ -185,7 +170,7 @@ h2 {
     color: #e5e7eb;
     padding: 0px; 
     margin: 0px; 
-
+    font-size: 18px;
 }
 
 .call-to-action-button {
@@ -200,9 +185,7 @@ h2 {
     height: 45px; 
     margin: 0; 
     font-size: 18px;
-    font-weight: bolder;
-    
-
+    font-weight: 900;
 }
 
 footer {
